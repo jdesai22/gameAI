@@ -18,6 +18,7 @@ class gameLogic():
         # else:
         self.board[row][col] = player
 
+
     def removeMove(self, row, col):
         self.board[row][col] = 0
 
@@ -33,6 +34,7 @@ class gameLogic():
                 self.gameOver = True
                 self.winner = self.board[0][i]
                 break
+
         # top left to bottom right diagonal
         if self.board[0][0] != 0 and self.board[0][0] == self.board[1][1] == self.board[2][2]:
             self.gameOver = True

@@ -3,6 +3,7 @@ import numpy as np
 from gameLogic import gameLogic
 from Agent import Agent
 from RandomAgent import RandomAgent
+from MinimaxAgent import MinimaxAgent
 
 class printGameTerminal(gameLogic):
     def __init__(self):
@@ -38,7 +39,7 @@ class printGameTerminal(gameLogic):
 
 if __name__ == "__main__":
     terminal = printGameTerminal()
-    player1 = Agent(terminal.board, 1)
+    player1 = MinimaxAgent(terminal.board, 1)
     player2 = RandomAgent(terminal.board, 2)
 
     while not terminal.gameFinished():
