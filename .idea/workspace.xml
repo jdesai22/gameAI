@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a40ff0a-907c-4040-9c46-d40f8a340eb0" name="Default Changelist" comment="# &lt;type&gt;: (If applied, this commit will...) &lt;subject&gt; (Max 50 char)&#10;# |&lt;----  Using a Maximum Of 50 Characters  ----&gt;|&#10;&#10;&#10;# Explain why this change is being made&#10;# |&lt;----   Try To Limit Each Line to a Maximum Of 72 Characters   ----&gt;|&#10;&#10;# Provide links or keys to any relevant tickets, articles or other resources&#10;# Example: Github issue #23&#10;&#10;# --- COMMIT END ---&#10;# Type can be &#10;#    feat     (new feature)&#10;#    fix      (bug fix)&#10;#    refactor (refactoring production code)&#10;#    style    (formatting, missing semi colons, etc; no code change)&#10;#    docs     (changes to documentation)&#10;#    test     (adding or refactoring tests; no production code change)&#10;#    chore    (updating grunt tasks etc; no production code change)&#10;# --------------------&#10;# Remember to&#10;#    Capitalize the subject line&#10;#    Use the imperative mood in the subject line&#10;#    Do not end the subject line with a period&#10;#    Separate subject from body with a blank line&#10;#    Use the body to explain what and why vs. how&#10;#    Can use multiple lines with &quot;-&quot; for bullet points in body&#10;# --------------------&#10;# For more information about this template, check out&#10;# https://gist.github.com/adeekshith/cd4c95a064977cdc6c50">
+      <change afterPath="$PROJECT_DIR$/ticTacToe/Agents/PlayerAgent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticTacToe/MinimaxAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/MinimaxAgent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticTacToe/gameLogic.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/gameLogic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticTacToe/headlessSimulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/headlessSimulator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticTacToe/printGameTerminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/printGameTerminal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/Agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Agents/Agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/BasicAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Agents/BasicAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/MinimaxAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Agents/MinimaxAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/RandomAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Agents/RandomAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/gameLogic.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Gameboards/gameLogic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/headlessSimulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Gameboards/headlessSimulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe/printGameTerminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe/Gameboards/printGameTerminal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.headlessSimulator">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ticTacToe/Gameboards" />
+      <recent name="$PROJECT_DIR$/ticTacToe/Agents" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.printGameTerminal">
     <configuration name="MinimaxAgent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gameAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +60,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/MinimaxAgent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/Agents/MinimaxAgent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +82,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/gameLogic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/Gameboards/gameLogic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +104,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/headlessSimulator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/Gameboards/headlessSimulator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +126,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/printGameTerminal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ticTacToe/Gameboards/printGameTerminal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.printGameTerminal" />
         <item itemvalue="Python.headlessSimulator" />
         <item itemvalue="Python.MinimaxAgent" />
-        <item itemvalue="Python.printGameTerminal" />
         <item itemvalue="Python.gameLogic" />
       </list>
     </recent_temporary>
@@ -157,12 +167,23 @@
       <workItem from="1635565838194" duration="204000" />
       <workItem from="1635651500757" duration="1620000" />
       <workItem from="1635738812478" duration="763000" />
-      <workItem from="1635878043803" duration="1586000" />
+      <workItem from="1635878043803" duration="3649000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -177,8 +198,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gameAI$gameLogic.coverage" NAME="gameLogic Coverage Results" MODIFIED="1634747127857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticTacToe" />
-    <SUITE FILE_PATH="coverage/gameAI$printGameTerminal.coverage" NAME="printGameTerminal Coverage Results" MODIFIED="1635652843164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticTacToe" />
-    <SUITE FILE_PATH="coverage/gameAI$headlessSimulator.coverage" NAME="headlessSimulator Coverage Results" MODIFIED="1635879624180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticTacToe" />
+    <SUITE FILE_PATH="coverage/gameAI$headlessSimulator.coverage" NAME="headlessSimulator Coverage Results" MODIFIED="1635880185147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticTacToe" />
+    <SUITE FILE_PATH="coverage/gameAI$printGameTerminal.coverage" NAME="printGameTerminal Coverage Results" MODIFIED="1635881685375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticTacToe" />
     <SUITE FILE_PATH="coverage/gameAI$MinimaxAgent.coverage" NAME="MinimaxAgent Coverage Results" MODIFIED="1635739638494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ticTacToe" />
   </component>
 </project>
